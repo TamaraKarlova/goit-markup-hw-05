@@ -522,7 +522,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-form-row">
+          <div class="modal-form-row textarea-holder">
             <label for="user-comment" class="modal-form-label">Comment</label>
             <textarea
               id="user-comment"
@@ -532,6 +532,21 @@
             >
             </textarea>
           </div>
+          <div class="modal-form-row checkbox-holder">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              class="visually-hidden"
+            />
+            <label for="user-privacy" class="checkbox-label">
+              <span class="checkbox-visual"> </span>I accept terms and
+              conditions of the
+              <a href="#" class="privacy-policy">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit" class="modal-submit">Send</button>
         </form>
       </div>
     </div>
